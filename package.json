@@ -1,53 +1,20 @@
 {
   "name": "fostack",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "docs/index.html",
   "scripts": {
-    "gitprodpages": "ng build --prod --base-href https://fostack.github.io/ && npm run gitpages",
-    "gitpages":"ngh --dir dist/fostack",
-    "gitmaster":"git add . && git commit -am '..' && git push -u origin master",
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "gitmaster":"git add . && git commit -am '..' && git push -u origin master -f",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^7.2.5",
-    "@angular/common": "^7.2.5",
-    "@angular/compiler": "^7.2.5",
-    "@angular/core": "^7.2.5",
-    "@angular/forms": "^7.2.5",
-    "@angular/http": "^7.2.5",
-    "@angular/platform-browser": "^7.2.5",
-    "@angular/platform-browser-dynamic": "^7.2.5",
-    "@angular/router": "^7.2.5",
-    "core-js": "^2.5.4",
-    "rxjs": "^6.0.0",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+  "repository": {
+    "type": "git",
+    "url": "git+https://FOStack:F3l1x0j3.@github.com/FOStack/fostack.github.io.git"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.13.0",
-    "@angular/cli": "~7.3.2",
-    "@angular/compiler-cli": "^7.2.5",
-    "@angular/language-service": "^7.2.5",
-    "@types/jasmine": "~2.8.6",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~8.9.4",
-    "angular-cli-ghpages": "0.5.3",
-    "codelyzer": "~4.2.1",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~1.7.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.0",
-    "karma-jasmine": "~1.1.1",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.4.0",
-    "ts-node": "~5.0.1",
-    "tslint": "~5.9.1",
-    "typescript": "~3.2.4"
-  }
+  "author": "Felix O",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FOStack/fostack.github.io/issues"
+  },
+  "homepage": "https://github.com/FOStack/fostack.github.io#readme"
 }
