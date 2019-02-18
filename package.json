@@ -4,6 +4,7 @@
   "scripts": {
     "gitprodpages": "ng build --prod --base-href https://fostack.github.io/ && npm run gitpages",
     "gitpages":"ngh --dir dist/fostack",
+    "gitmaster":"git add . && git commit -am '..' && git push -u origin master",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
