@@ -2,7 +2,7 @@
   "name": "fostack",
   "version": "1.0.0",
   "description": "Portfolio",
-  "main": "docs/index.html",
+  "main": "index.html",
   "scripts": {
     "gitmaster": "git add . && git commit -am '..' && git push -u origin master -f",
     "test": "echo \"Error: no test specified\" && exit 1"
